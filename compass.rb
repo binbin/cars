@@ -1,0 +1,10 @@
+project_path = "./"
+http_path = "/"
+css_dir = "www/css"
+sass_dir = "scss"
+images_dir = "www/img"
+fonts_dir = "www/fonts"
+generated_images_dir = "www/img/generated"
+images_path = "www/img"
+relative_assets = true
+line_comments = true

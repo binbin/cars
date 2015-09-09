@@ -7,10 +7,22 @@ var minifyCss = require('gulp-minify-css');
 var rename = require('gulp-rename');
 var sh = require('shelljs');
 
+var compass =require('gulp-compass')
+
+var path =require('path')
+
+var fs = require('fs')
+
+function handleError(err) {
+  console.log(err.toString());
+  this.emit('end');
+}
+
 var paths = {
   sass: ['./scss/**/*.scss']
 };
-
+gulp.task('default', ['compass']);
+/*
 gulp.task('default', ['sass']);
 
 gulp.task('sass', function(done) {
@@ -26,10 +38,27 @@ gulp.task('sass', function(done) {
     .pipe(gulp.dest('./www/css/'))
     .on('end', done);
 });
+*/
+gulp.task('compass',function(){
+    gulp.src('./scss/*.scss').pipe(compass({
+         // config_file: 'compass.rb',
+         // project: fs.realpathSync(__dirname + '/..'),
+         css:'www/css',
+         sass:'scss',
+         image:'www/image',
+         // relative: true,
+         debug:true
+    })).on('error',handleError).pipe(gulp.dest(path.join(__dirname, 'www/temp')))
+})
+gulp.task('watch', function() {
+  gulp.watch(paths.sass, ['compass']);
+});
 
+/*
 gulp.task('watch', function() {
   gulp.watch(paths.sass, ['sass']);
 });
+*/
 
 gulp.task('install', ['git-check'], function() {
   return bower.commands.install()
