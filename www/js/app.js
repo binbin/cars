@@ -1,5 +1,5 @@
 angular.module('cars', ['ionic','cars.controller','cars.services'])
-.run(function(){
+.run(function($ionicPlatform){
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)

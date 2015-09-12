@@ -45,7 +45,7 @@ gulp.task('compass',function(){
          // project: fs.realpathSync(__dirname + '/..'),
          css:'www/css',
          sass:'scss',
-         image:'www/image',
+         image:'www/images',
          // relative: true,
          debug:true
     })).on('error',handleError).pipe(gulp.dest(path.join(__dirname, 'www/temp')))
