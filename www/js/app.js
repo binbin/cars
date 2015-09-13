@@ -105,4 +105,7 @@ angular.module('cars', ['ionic','cars.controller','cars.services'])
     });
 
     $urlRouterProvider.otherwise('/index');
-})
+}).config(function($ionicConfigProvider) {
+  // remove back button text completely
+  $ionicConfigProvider.backButton.previousTitleText(false).text('');
+});

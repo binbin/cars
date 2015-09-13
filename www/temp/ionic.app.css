@@ -5683,9 +5683,9 @@ a.subdued:last-child {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_bar\.scss}line{font-family:\0000381}}
 .bar.bar-positive {
-  border-color: #0c60ee;
-  background-color: #387ef5;
-  background-image: linear-gradient(0deg, #0c60ee, #0c60ee 50%, transparent 50%);
+  border-color: #2fb1fc;
+  background-color: #61c4fd;
+  background-image: linear-gradient(0deg, #2fb1fc, #2fb1fc 50%, transparent 50%);
   color: #fff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\0000367}}
@@ -5694,7 +5694,7 @@ a.subdued:last-child {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_bar\.scss}line{font-family:\0000383}}
 .bar.bar-positive.bar-footer {
-  background-image: linear-gradient(180deg, #0c60ee, #0c60ee 50%, transparent 50%);
+  background-image: linear-gradient(180deg, #2fb1fc, #2fb1fc 50%, transparent 50%);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_bar\.scss}line{font-family:\0000387}}
 .bar.bar-calm {
@@ -5739,7 +5739,7 @@ a.subdued:last-child {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_bar\.scss}line{font-family:\00003101}}
 .bar.bar-balanced.bar-footer {
-  background-image: linear-gradient(180deg, #28a54c, #0c60ee 50%, transparent 50%);
+  background-image: linear-gradient(180deg, #28a54c, #2fb1fc 50%, transparent 50%);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_bar\.scss}line{font-family:\00003105}}
 .bar.bar-energized {
@@ -5989,8 +5989,8 @@ a.subdued:last-child {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_bar\.scss}line{font-family:\00003299}}
 .bar-positive .button {
-  border-color: #0c60ee;
-  background-color: #387ef5;
+  border-color: #2fb1fc;
+  background-color: #61c4fd;
   color: #fff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\0000311}}
@@ -6000,8 +6000,8 @@ a.subdued:last-child {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\0000315}}
 .bar-positive .button.active, .bar-positive .button.activated {
-  border-color: #0c60ee;
-  background-color: #0c60ee;
+  border-color: #2fb1fc;
+  background-color: #2fb1fc;
   box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\0000324}}
@@ -6365,16 +6365,16 @@ a.subdued:last-child {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\0000355}}
 .tabs-positive > .tabs,
 .tabs.tabs-positive {
-  border-color: #0c60ee;
-  background-color: #387ef5;
-  background-image: linear-gradient(0deg, #0c60ee, #0c60ee 50%, transparent 50%);
+  border-color: #2fb1fc;
+  background-color: #61C4FD;
+  background-image: linear-gradient(0deg, #2fb1fc, #2fb1fc 50%, transparent 50%);
   color: #fff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\0000384}}
 .tabs-positive > .tabs .tab-item .badge,
 .tabs.tabs-positive .tab-item .badge {
   background-color: #fff;
-  color: #387ef5;
+  color: #61C4FD;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\0000360}}
@@ -6539,7 +6539,7 @@ a.subdued:last-child {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\0000393}}
 .tabs-striped.tabs-positive .tabs {
-  background-color: #387ef5;
+  background-color: #61C4FD;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\0000396}}
 .tabs-striped.tabs-positive .tab-item {
@@ -6724,7 +6724,7 @@ a.subdued:last-child {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003139}}
 .tabs-striped.tabs-background-positive .tabs {
-  background-color: #387ef5;
+  background-color: #61C4FD;
   background-image: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003139}}
@@ -6801,7 +6801,7 @@ a.subdued:last-child {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003169}}
 .tabs-striped.tabs-color-positive .tab-item {
-  color: rgba(56, 126, 245, 0.4);
+  color: rgba(97, 196, 253, 0.4);
   opacity: 1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003172}}
@@ -6811,8 +6811,8 @@ a.subdued:last-child {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003175}}
 .tabs-striped.tabs-color-positive .tab-item.tab-item-active, .tabs-striped.tabs-color-positive .tab-item.active, .tabs-striped.tabs-color-positive .tab-item.activated {
   margin-top: -2px;
-  color: #387ef5;
-  border: 0 solid #387ef5;
+  color: #61C4FD;
+  border: 0 solid #61C4FD;
   border-top-width: 2px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003182}}
@@ -6963,9 +6963,9 @@ a.subdued:last-child {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003128}}
 .tabs-background-positive .tabs, .tabs-background-positive > .tabs {
-  background-color: #387ef5;
-  background-image: linear-gradient(0deg, #0c60ee, #0c60ee 50%, transparent 50%);
-  border-color: #0c60ee;
+  background-color: #61C4FD;
+  background-image: linear-gradient(0deg, #2fb1fc, #2fb1fc 50%, transparent 50%);
+  border-color: #2fb1fc;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003128}}
@@ -7050,7 +7050,7 @@ a.subdued:last-child {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003148}}
 .tabs-color-positive .tab-item {
-  color: rgba(56, 126, 245, 0.4);
+  color: rgba(97, 196, 253, 0.4);
   opacity: 1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003151}}
@@ -7059,8 +7059,8 @@ a.subdued:last-child {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003154}}
 .tabs-color-positive .tab-item.tab-item-active, .tabs-color-positive .tab-item.active, .tabs-color-positive .tab-item.activated {
-  color: #387ef5;
-  border: 0 solid #387ef5;
+  color: #61C4FD;
+  border: 0 solid #61C4FD;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003159}}
 .tabs-color-positive .tab-item.tab-item-active .badge, .tabs-color-positive .tab-item.active .badge, .tabs-color-positive .tab-item.activated .badge {
@@ -7203,7 +7203,7 @@ ion-tabs.tabs-color-active-positive .tab-item {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003271}}
 ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated {
-  color: #387ef5;
+  color: #61C4FD;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003269}}
 ion-tabs.tabs-color-active-calm .tab-item {
@@ -7467,7 +7467,7 @@ ion-tabs.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs.tabs-color-a
 .tab-item.tab-item-active.tab-item-positive,
 .tab-item.active.tab-item-positive,
 .tab-item.activated.tab-item-positive {
-  color: #387ef5;
+  color: #61C4FD;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_tabs\.scss}line{font-family:\00003486}}
 .tab-item.tab-item-active.tab-item-calm,
@@ -8207,8 +8207,8 @@ ion-tabs.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs.tabs-color-a
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_items\.scss}line{font-family:\0000377}}
 .item.item-positive {
-  border-color: #0c60ee;
-  background-color: #387ef5;
+  border-color: #2fb1fc;
+  background-color: #61C4FD;
   color: #fff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_items\.scss}line{font-family:\0000380}}
@@ -8295,8 +8295,8 @@ ion-tabs.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs.tabs-color-a
 .item-complex.activated .item-content.item-positive,
 .item .item-content.active.item-positive,
 .item .item-content.activated.item-positive {
-  border-color: #0c60ee;
-  background-color: #0c60ee;
+  border-color: #2fb1fc;
+  background-color: #2fb1fc;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_items\.scss}line{font-family:\00003129}}
 .item.active.item-calm,
@@ -8484,14 +8484,14 @@ a.item-content {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_items\.scss}line{font-family:\00003262}}
 .item-complex.item-positive > .item-content {
-  border-color: #0c60ee;
-  background-color: #387ef5;
+  border-color: #2fb1fc;
+  background-color: #61C4FD;
   color: #fff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_items\.scss}line{font-family:\00003264}}
 .item-complex.item-positive > .item-content.active, .item-complex.item-positive > .item-content:active {
-  border-color: #0c60ee;
-  background-color: #0c60ee;
+  border-color: #2fb1fc;
+  background-color: #2fb1fc;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_items\.scss}line{font-family:\00003268}}
 .item-complex.item-calm > .item-content {
@@ -9338,7 +9338,7 @@ button.item.item-button-right {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_badge\.scss}line{font-family:\0000335}}
 .tabs .tab-item .badge.badge-positive,
 .badge.badge-positive {
-  background-color: #387ef5;
+  background-color: #61C4FD;
   color: #fff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_badge\.scss}line{font-family:\0000338}}
@@ -9603,8 +9603,8 @@ button.item.item-button-right {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_spinner\.scss}line{font-family:\0000323}}
 .spinner.spinner-positive {
-  stroke: #387ef5;
-  fill: #387ef5;
+  stroke: #61C4FD;
+  fill: #61C4FD;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_spinner\.scss}line{font-family:\0000327}}
 .spinner.spinner-calm {
@@ -9667,7 +9667,7 @@ button.item.item-button-right {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_spinner\.scss}line{font-family:\0000379}}
 .spinner-spiral.spinner-positive .stop2 {
-  stop-color: #387ef5;
+  stop-color: #61C4FD;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_spinner\.scss}line{font-family:\0000382}}
 .spinner-spiral.spinner-calm .stop2 {
@@ -10116,8 +10116,8 @@ input[type="checkbox"][readonly] {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\00003138}}
 .checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before {
-  background: #387ef5;
-  border-color: #387ef5;
+  background: #61C4FD;
+  border-color: #61C4FD;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\00003132}}
@@ -10142,12 +10142,12 @@ input[type="checkbox"][readonly] {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\00003132}}
 .checkbox-positive input:before, .checkbox-positive .checkbox-icon:before {
-  border-color: #387ef5;
+  border-color: #61C4FD;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\00003138}}
 .checkbox-positive input:checked:before, .checkbox-positive input:checked + .checkbox-icon:before {
-  background: #387ef5;
-  border-color: #387ef5;
+  background: #61C4FD;
+  border-color: #61C4FD;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\00003132}}
@@ -10395,8 +10395,8 @@ input:checked + .checkbox-icon:after {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\00003151}}
 .toggle.toggle-positive input:checked + .track {
-  border-color: #387ef5;
-  background-color: #387ef5;
+  border-color: #61C4FD;
+  background-color: #61C4FD;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\00003151}}
 .toggle.toggle-calm input:checked + .track {
@@ -10572,11 +10572,11 @@ input:checked + .checkbox-icon:after {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\00003158}}
 .toggle-small .toggle-positive input:checked + .track {
-  background-color: rgba(56, 126, 245, 0.5);
+  background-color: rgba(97, 196, 253, 0.5);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\00003161}}
 .toggle-small .toggle-positive input:checked + .track .handle {
-  background-color: #387ef5;
+  background-color: #61C4FD;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\00003158}}
 .toggle-small .toggle-calm input:checked + .track {
@@ -10808,11 +10808,11 @@ input:checked + .checkbox-icon:after {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\00003119}}
 .range.range-positive input::-webkit-slider-thumb:before {
-  background: #387ef5;
+  background: #61C4FD;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\00003122}}
 .range.range-positive input::-ms-fill-lower {
-  background: #387ef5;
+  background: #61C4FD;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\00003119}}
 .range.range-calm input::-webkit-slider-thumb:before {
@@ -10986,7 +10986,7 @@ input:checked + .checkbox-icon:after {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_select\.scss}line{font-family:\0000373}}
 .item-select.item-positive select {
-  background: #387ef5;
+  background: #61C4FD;
   color: #fff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_select\.scss}line{font-family:\0000377}}
@@ -11224,8 +11224,8 @@ progress {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_button\.scss}line{font-family:\0000386}}
 .button.button-positive {
-  border-color: #0c60ee;
-  background-color: #387ef5;
+  border-color: #2fb1fc;
+  background-color: #61C4FD;
   color: #fff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\0000311}}
@@ -11235,8 +11235,8 @@ progress {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\0000315}}
 .button.button-positive.active, .button.button-positive.activated {
-  border-color: #0c60ee;
-  background-color: #0c60ee;
+  border-color: #2fb1fc;
+  background-color: #2fb1fc;
   box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\0000324}}
@@ -11244,7 +11244,7 @@ progress {
   border-color: transparent;
   background: none;
   box-shadow: none;
-  color: #387ef5;
+  color: #61C4FD;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\0000334}}
 .button.button-positive.button-icon {
@@ -11253,13 +11253,13 @@ progress {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\0000341}}
 .button.button-positive.button-outline {
-  border-color: #387ef5;
+  border-color: #61C4FD;
   background: transparent;
-  color: #387ef5;
+  color: #61C4FD;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_mixins\.scss}line{font-family:\0000348}}
 .button.button-positive.button-outline.active, .button.button-positive.button-outline.activated {
-  background-color: #387ef5;
+  background-color: #61C4FD;
   box-shadow: none;
   color: #fff;
 }
@@ -12331,17 +12331,17 @@ a.button .icon:before, a.button.icon:before, a.button.icon-left:before, a.button
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_util\.scss}line{font-family:\00003200}}
 .positive, a.positive {
-  color: #387ef5;
+  color: #61C4FD;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_util\.scss}line{font-family:\00003203}}
 .positive-bg {
-  background-color: #387ef5;
+  background-color: #61C4FD;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_util\.scss}line{font-family:\00003206}}
 .positive-border {
-  border-color: #0c60ee;
+  border-color: #2fb1fc;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/www\/lib\/ionic\/scss\/_util\.scss}line{font-family:\00003210}}
@@ -12754,4 +12754,9 @@ a.button .icon:before, a.button.icon:before, a.button.icon-left:before, a.button
   opacity: 0;
   -webkit-transition-duration: 0s;
   transition-duration: 0s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/ionic\.app\.scss}line{font-family:\0000326}}
+.bar .title {
+  font-weight: bold;
 }

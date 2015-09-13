@@ -1,13 +1,5 @@
-// Ionic Starter App
-
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
-// 'starter.services' is found in services.js
-// 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
-
-.run(function($ionicPlatform) {
+angular.module('cars', ['ionic','cars.controller','cars.services'])
+.run(function($ionicPlatform){
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -20,66 +12,100 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       // org.apache.cordova.statusbar required
       StatusBar.styleLightContent();
     }
-  });
+  });	
 })
-
-.config(function($stateProvider, $urlRouterProvider) {
-
-  // Ionic uses AngularUI Router which uses the concept of states
-  // Learn more here: https://github.com/angular-ui/ui-router
-  // Set up the various states which the app can be in.
-  // Each state's controller can be found in controllers.js
-  $stateProvider
-
-  // setup an abstract state for the tabs directive
-    .state('tab', {
-    url: '/tab',
-    abstract: true,
-    templateUrl: 'templates/tabs.html'
-  })
-
-  // Each tab has its own nav history stack:
-
-  .state('tab.dash', {
-    url: '/dash',
-    views: {
-      'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
-        controller: 'DashCtrl'
-      }
-    }
-  })
-
-  .state('tab.chats', {
-      url: '/chats',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
-        }
-      }
+.config(function($stateProvider, $urlRouterProvider){
+    $stateProvider.state('index',{
+        url:'/index',
+        templateUrl:'templates/index.html',
+        controller: 'IndexCtrl'
+        // views:{
+        // 	'index':{
+        // 		templateUrl:'templates/index.html',
+        // 		controller: 'IndexCtrl'
+        // 	}
+        // }
     })
-    .state('tab.chat-detail', {
-      url: '/chats/:chatId',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
-        }
-      }
+    .state('customer',{
+    	url:'/customer',
+    	templateUrl:'templates/customer.html',
+    	controller: 'CustomerCtrl'
+    	// views:{
+    	// 	'customer':{
+    	// 		templateUrl:'templates/customer.html',
+    	// 		controller: 'CustomerCtrl'
+    	// 	}
+    	// }
     })
+    .state('employee',{
+    	url:'/employee',
+    	templateUrl:'templates/employee.html',
+    	controller: 'EmployeeCtrl'
+    	// views:{
+    	// 	'employee':{
+    	// 		templateUrl:'templates/employee.html',
+    	// 		controller: 'EmployeeCtrl'
+    	// 	}
+    	// }
+    })
+    .state('grade',{
+    	url:'/grade',
+    	templateUrl:'templates/grade.html',
+    	controller: 'GradeCtrl'
+    	// views:{
+    	// 	'grade':{
+    	// 		templateUrl:'templates/grade.html',
+    	// 		controller: 'GradeCtrl'
+    	// 	}
+    	// }
+    })
+    .state('messages',{
+    	url:'/messages',
+    	templateUrl:'templates/messages.html',
+    	controller: 'MessagesCtrl'
+    	// views:{
+    	// 	'messages':{
+    	// 		templateUrl:'templates/messages.html',
+    	// 		controller: 'MessagesCtrl'
+    	// 	}
+    	// }
+    })
+    .state('databord',{
+        url:'/databord',
+        templateUrl:'templates/databord.html',
+        controller: 'DatabordCtrl'
+        // views:{
+        // 	'databord':{
+        // 		templateUrl:'templates/databord.html',
+        // 		controller: 'DatabordCtrl'
+        // 	}
+        // }
+    })
+    .state('task',{
+    	url:'/task',
+    	templateUrl:'templates/task.html',
+		controller: 'TaskCtrl'
+		// views:{
+		// 	'task':{
+		// 		templateUrl:'templates/task.html',
+		// 		controller: 'TaskCtrl'
+		// 	}
+		// }
+    })
+    .state('logout',{
+    	url:'/logout',
+    	templateUrl:'templates/logout.html',
+		controller: 'LogoutCtrl'
+		// views:{
+		// 	'logout':{
+		// 		templateUrl:'templates/logout.html',
+		// 		controller: 'LogoutCtrl'
+		// 	}
+		// }
+    });
 
-  .state('tab.account', {
-    url: '/account',
-    views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
-      }
-    }
-  });
-
-  // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/dash');
-
+    $urlRouterProvider.otherwise('/index');
+}).config(function($ionicConfigProvider) {
+  // remove back button text completely
+  $ionicConfigProvider.backButton.previousTitleText(false).text('');
 });

@@ -2,7 +2,9 @@ angular.module('cars.controller', [])
 .controller('IndexCtrl', function($scope) {
 	
 })
-.controller('CustomerCtrl', function($scope) {})
+.controller('CustomerCtrl', function($scope) {
+	
+})
 .controller('EmployeeCtrl', function($scope) {})
 .controller('GradeCtrl', function($scope) {})
 .controller('MessagesCtrl', function($scope) {})

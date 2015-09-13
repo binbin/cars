@@ -1,0 +1,231 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\000035}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
+html {
+  line-height: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
+ol, ul {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
+q, blockquote {
+  quotes: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003103}}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000332}}
+a img {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\000036}}
+body {
+  font: 16px/1.5 'XinGothic-SinaWeibo','Microsoft Yahei','helvetica','arial';
+  -webkit-text-size-adjust: none;
+  font-family: "Apple TP","Helvetica Neue","Helvetica","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック","Arial","Verdana","sans-serif";
+  color: #1a1a1a;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000315}}
+#index .top {
+  overflow: hidden;
+  background: #5FC4FD;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000320}}
+#index .top .right {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  float: right;
+  width: 100px;
+  height: 80px;
+  padding-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000328}}
+#index .top .right .logo {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 80px;
+  width: 80px;
+  background: url("../images/logo.png") no-repeat scroll 0 0 transparent;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000336}}
+#index .top .left {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  /*margin-right:120px;*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000339}}
+#index .top .left h1, #index .top .left h2 {
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000345}}
+#index .top .left h1 {
+  font-size: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000348}}
+#index .top .left h2 {
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000353}}
+#index .legend {
+  background: #63B9F6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000355}}
+#index .legend .legend-item {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000362}}
+#index .legend .legend-item div {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000367}}
+#index .actions {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000373}}
+#index .actions a {
+  padding-top: 10px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 100px;
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  color: #fff;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/typography\/links\/_unstyled-link\.scss}line{font-family:\000036}}
+#index .actions a:active, #index .actions a:focus {
+  outline: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000381}}
+#index .actions a span {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  width: 100%;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000390}}
+#index .actions a i {
+  font-size: 60px;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000395}}
+#index .actions a.c1 {
+  background: #5FC2FF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000398}}
+#index .actions a.c2 {
+  background: #6AE8F4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003100}}
+#index .actions a.c2 i {
+  font-size: 65px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003104}}
+#index .actions a.c3 {
+  background: #FF9C5F;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003106}}
+#index .actions a.c3 i {
+  font-size: 46px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003110}}
+#index .actions a.c4 {
+  background: #77E6A7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003113}}
+#index .actions a.c5 {
+  background: #7B60FF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003116}}
+#index .actions a.c6 {
+  background: #B366FB;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003119}}
+#index .actions a.c7 {
+  background: #FF6472;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003121}}
+#index .actions a.c7 i {
+  font-size: 50px;
+}
