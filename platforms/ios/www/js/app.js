@@ -102,7 +102,11 @@ angular.module('cars', ['ionic','cars.controller','cars.services'])
 		// 		controller: 'LogoutCtrl'
 		// 	}
 		// }
-    });
+    })
+    .state('test',{
+        url:'/test',
+        templateUrl:'templates/test.html'
+    })
 
     $urlRouterProvider.otherwise('/index');
 }).config(function($ionicConfigProvider) {
