@@ -12760,3 +12760,13 @@ a.button .icon:before, a.button.icon:before, a.button.icon-left:before, a.button
 .bar .title {
   font-weight: bold;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/ionic\.app\.scss}line{font-family:\0000328}}
+.color-assertive {
+  color: #ef473a;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/ionic\.app\.scss}line{font-family:\0000331}}
+.color-positive {
+  color: #61C4FD;
+}

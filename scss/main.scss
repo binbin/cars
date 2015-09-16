@@ -11,6 +11,7 @@ font-family:"Apple TP","Helvetica Neue","Helvetica","Hiragino Kaku Gothic Pro","
 
 color:#1a1a1a;
 }
+
 #index{
 	.top{
                   overflow: hidden;
@@ -123,4 +124,48 @@ color:#1a1a1a;
           }
          }
       }
+}
+#customer{
+  .item-avatar .item-content{
+     padding-left:92px;
+  }
+  .item-avatar > img:first-child, .item-avatar .item-image, .item-avatar .item-content > img:first-child, .item-avatar .item-content .item-image, .item-avatar-left > img:first-child, .item-avatar-left .item-image, .item-avatar-left .item-content > img:first-child, .item-avatar-left .item-content .item-image{
+     max-width: 60px;
+     max-height: 60px;
+  }
+  .item-avatar .item-content > span{
+    position: absolute;
+      top: 78px;
+      left:8px;
+      color: #666;
+      font-size: 14px;
+  }
+  .item-avatar .item-content > div{
+     border-right:1px solid #ddd;
+     padding-right:5px;
+     min-height:80px;
+  }
+  /*.item-complex.item-icon-right .item-content{
+    padding-right: 64px;
+  }*/
+  .item-icon-right .icon{
+    font-size:48px;
+    -webkit-box-align: baseline;
+    -ms-flex-align: top;
+    -webkit-align-items: baseline;
+    -moz-align-items: inherit;
+    align-items: baseline;
+    span{
+     position:absolute;
+     top:56px;
+     left:0;
+     width:100%;
+     text-align:center;
+     color: #666;
+     font-size: 24px;
+    }
+  }
+  .item-content p{
+      white-space: normal;
+  }
 }
