@@ -3,6 +3,8 @@
 @import "compass/css3";
 @import "compass/typography/links/unstyled-link";
 
+@import "./ionic.app";
+
 body{
 	font:16px/1.5 'XinGothic-SinaWeibo','Microsoft Yahei','helvetica','arial';
 -webkit-text-size-adjust:none;
@@ -126,6 +128,21 @@ color:#1a1a1a;
       }
 }
 #customer{
+  .legend > div{
+    border:{
+     top:1px solid $positive;
+     right:1px solid $positive;
+     bottom:1px solid $positive;
+    }
+    text-align:center;
+  }
+  .legend > div.current{
+    background:$positive;
+    color:#fff;
+  }
+  .legend div:nth-child(1){
+      border-left:1px solid $positive;
+    }
   .item-avatar .item-content{
      padding-left:92px;
   }

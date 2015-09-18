@@ -72,14 +72,14 @@ body {
   color: #1a1a1a;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000316}}
 #index .top {
   overflow: hidden;
   background: #5FC4FD;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000321}}
 #index .top .right {
   display: inline-block;
   vertical-align: middle;
@@ -91,7 +91,7 @@ body {
   height: 80px;
   padding-right: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000329}}
 #index .top .right .logo {
   display: inline-block;
   vertical-align: middle;
@@ -105,7 +105,7 @@ body {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000337}}
 #index .top .left {
   display: inline-block;
   vertical-align: middle;
@@ -114,26 +114,26 @@ body {
   *display: inline;
   /*margin-right:120px;*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000340}}
 #index .top .left h1, #index .top .left h2 {
   color: #fff;
   font-weight: bold;
   margin: 0;
   padding-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000346}}
 #index .top .left h1 {
   font-size: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000349}}
 #index .top .left h2 {
   font-size: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000354}}
 #index .legend {
   background: #63B9F6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000356}}
 #index .legend .legend-item {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -142,17 +142,17 @@ body {
   color: #fff;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000363}}
 #index .legend .legend-item div {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000368}}
 #index .actions {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000374}}
 #index .actions a {
   padding-top: 10px;
   width: 100%;
@@ -172,7 +172,7 @@ body {
 #index .actions a:active, #index .actions a:focus {
   outline: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000382}}
 #index .actions a span {
   font-size: 16px;
   font-weight: bold;
@@ -184,48 +184,101 @@ body {
   width: 100%;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000391}}
 #index .actions a i {
   font-size: 60px;
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000396}}
 #index .actions a.c1 {
   background: #5FC2FF;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\0000399}}
 #index .actions a.c2 {
   background: #6AE8F4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003101}}
 #index .actions a.c2 i {
   font-size: 65px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003105}}
 #index .actions a.c3 {
   background: #FF9C5F;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003107}}
 #index .actions a.c3 i {
   font-size: 46px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003111}}
 #index .actions a.c4 {
   background: #77E6A7;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003114}}
 #index .actions a.c5 {
   background: #7B60FF;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003117}}
 #index .actions a.c6 {
   background: #B366FB;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003120}}
 #index .actions a.c7 {
   background: #FF6472;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003122}}
 #index .actions a.c7 i {
   font-size: 50px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003128}}
+#customer {
+  /*.item-complex.item-icon-right .item-content{
+    padding-right: 64px;
+  }*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003129}}
+#customer .item-avatar .item-content {
+  padding-left: 92px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003132}}
+#customer .item-avatar > img:first-child, #customer .item-avatar .item-image, #customer .item-avatar .item-content > img:first-child, #customer .item-avatar .item-content .item-image, #customer .item-avatar-left > img:first-child, #customer .item-avatar-left .item-image, #customer .item-avatar-left .item-content > img:first-child, #customer .item-avatar-left .item-content .item-image {
+  max-width: 60px;
+  max-height: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003136}}
+#customer .item-avatar .item-content > span {
+  position: absolute;
+  top: 78px;
+  left: 8px;
+  color: #666;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003143}}
+#customer .item-avatar .item-content > div {
+  border-right: 1px solid #ddd;
+  padding-right: 5px;
+  min-height: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003151}}
+#customer .item-icon-right .icon {
+  font-size: 48px;
+  -webkit-box-align: baseline;
+  -ms-flex-align: top;
+  -webkit-align-items: baseline;
+  -moz-align-items: inherit;
+  align-items: baseline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003158}}
+#customer .item-icon-right .icon span {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #666;
+  font-size: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/binbin\/Documents\/work\/cars\/scss\/main\.scss}line{font-family:\00003168}}
+#customer .item-content p {
+  white-space: normal;
 }
