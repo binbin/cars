@@ -127,7 +127,16 @@ color:#1a1a1a;
          }
       }
 }
-#customer{
+#customer-top{
+    height: 50px;
+    background: #fff;
+  /* .legend{
+    padding:{
+     left:10px;
+     right:10px;
+    }
+  }
+  */
   .legend > div{
     border:{
      top:1px solid $positive;
@@ -143,6 +152,9 @@ color:#1a1a1a;
   .legend div:nth-child(1){
       border-left:1px solid $positive;
     }
+}
+#customer{
+padding-top:34px;
   .item-avatar .item-content{
      padding-left:92px;
   }
