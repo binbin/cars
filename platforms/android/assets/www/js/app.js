@@ -37,6 +37,10 @@ angular.module('cars', ['ionic','cars.controller','cars.services'])
     	// 	}
     	// }
     })
+    .state('customer_add',{
+        url:'/customer_add',
+        templateUrl:'templates/customer_add.html'
+    })
     .state('employee',{
     	url:'/employee',
     	templateUrl:'templates/employee.html',
@@ -102,7 +106,14 @@ angular.module('cars', ['ionic','cars.controller','cars.services'])
 		// 		controller: 'LogoutCtrl'
 		// 	}
 		// }
-    });
+    })
+    .state('test',{
+        url:'/test',
+        templateUrl:'templates/test.html'
+    })
 
     $urlRouterProvider.otherwise('/index');
-})
+}).config(function($ionicConfigProvider) {
+  // remove back button text completely
+  $ionicConfigProvider.backButton.previousTitleText(false).text('');
+});
