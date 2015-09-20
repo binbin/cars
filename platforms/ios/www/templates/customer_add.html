@@ -7,68 +7,104 @@
   </ion-nav-buttons>
 </ion-nav-bar>
   <ion-content>
-   <div class="list">
-   <label class="item item-input item-select">
-    <div class="input-label">
-     前端技术
-    </div>
-    <select>
-     <option>HTML</option>
-     <option selected>CSS</option>
-     <option>JavaScript</option>
-    </select>
-   </label>
-  </div>
-    <ion-list type="card">
-      <ion-item class="item">
-           <label class="item item-input item-select">
-	        <div class="input-label">
-	          Lightsaber
-	        </div>
-	        <select>
-	          <option>Blue</option>
-	          <option selected>Green</option>
-	          <option>Red</option>
-	        </select>
-	      </label>
-      </ion-item>
-       <ion-item class="item">
-           <label class="item item-input item-select">
-	        <div class="input-label">
-	          Lightsaber
-	        </div>
-	        <select>
-	          <option>Blue</option>
-	          <option selected>Green</option>
-	          <option>Red</option>
-	        </select>
-	      </label>
-      </ion-item>
-       <ion-item class="item">
-           <label class="item item-input item-select">
-	        <div class="input-label">
-	          Lightsaber
-	        </div>
-	        <select>
-	          <option>Blue</option>
-	          <option selected>Green</option>
-	          <option>Red</option>
-	        </select>
-	      </label>
-      </ion-item>
-    </ion-list>
-
-    <div class="list">
+  <div class="list">
+    <!--   <label class="item">
+      	<span class="input-label">客户头像</span>
+      	<img src="./images/avatar.png" alt="placeholder+image">
+      </label> -->
+      <label class="item item-input">
+        <span class="input-label">客户姓名</span>
+        <input type="text">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">客户电话</span>
+        <input type="tel">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">客户QQ</span>
+        <input type="tel">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">客户微信</span>
+        <input type="tel">
+      </label>
       <label class="item item-input item-select">
         <div class="input-label">
-          Lightsaber
+          客户性别
         </div>
         <select>
-          <option>Blue</option>
-          <option selected>Green</option>
-          <option>Red</option>
+          <option selected>男</option>
+          <option>女</option>
         </select>
       </label>
+      <label class="item item-input">
+        <span class="input-label">客户爱好</span>
+        <input type="text">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">客户职业</span>
+        <input type="text">
+      </label>
+      <label class="item item-input item-select">
+        <div class="input-label">
+          接待人员
+        </div>
+        <select>
+          <option selected>巴菲特</option>
+          <option>盖茨</option>
+        </select>
+      </label>
+      <label class="item item-input item-select">
+        <div class="input-label">
+          来源渠道
+        </div>
+        <select>
+          <option selected>网上广告</option>
+          <option>电话广告</option>
+        </select>
+      </label>
+      <label class="item item-input item-select">
+        <div class="input-label">
+          客户人数
+        </div>
+        <select>
+          <option selected>1人</option>
+          <option>2人</option>
+        </select>
+      </label>
+      <label class="item item-input item-select">
+        <div class="input-label">
+          是否试驾
+        </div>
+        <select>
+          <option selected>是</option>
+          <option>否</option>
+        </select>
+      </label>
+       <label class="item item-input item-select">
+        <div class="input-label">
+          来店记录
+        </div>
+        <input type="datetime-local" name="date">
+      </label>
+      <label class="item item-input item-select">
+        <div class="input-label">
+          离店记录
+        </div>
+        <input type="datetime-local" name="date">
+      </label>
+        <label class="item item-input item-select">
+        <div class="input-label">
+          图像
+        </div>
+        <input type="file" class="ios_only" accept="image/*" capture="camera">
+      </label>
+      
     </div>
+
+  
+  
+
+
   </ion-content>
 </ion-view>
