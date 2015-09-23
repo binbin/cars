@@ -7,15 +7,20 @@
   </ion-nav-buttons>
 </ion-nav-bar>
 <ion-header-bar class="bar-subheader" id="customer-top">
-   	<div class="row legend">
+<!--    	<div class="row legend">
         		<div class="col  col-center current">标准客户</div>
         		<div class="col  col-center">战败客户</div>
         		<div class="col  col-center">保有客户</div>
-        	</div>
+        	</div> -->
+        	<div class="button-bar">
+	  <a class="button button-positive">标准客户</a>
+	  <a class="button">战败客户</a>
+	  <a class="button">保有客户</a>
+	</div>
  </ion-header-bar>
 <ion-header-bar class="bar-subheader item-input-inset" style="margin-top:50px;">
    	<label class="item-input-wrapper">
-	    <input type="search" placeholder="搜索">
+	    <input type="search" placeholder="搜索" ng-model="query">
 	    <i class="icon ion-ios-search placeholder-icon"></i>
 	</label>
  </ion-header-bar>
@@ -42,13 +47,13 @@
 	  </label>
 	</div> -->
 	<ion-list type="card" >
-	  <ion-item class="item item-avatar item-icon-right">
+	  <ion-item class="item item-avatar item-icon-right" ng-repeat="customer in customers | filter:query">
 	      <img src="./images/avatar.png">
-	      <span>C级(已回访)</span>
+	      <span>{{customer.level}}级(已回访)</span>
 	      <div>
-		      <h2>刘<span class="color-assertive">13708357405</span></h2>
+		      <h2>{{customer.name}}<span class="color-assertive">{{customer.tel}}</span></h2>
 		      <p><span class="color-assertive"></span></p>
-		      <p>长安汽车长安CS752014款 1.8T 自动精英型 国IV</p>	      	
+		      <p>{{customer.trend_type}}</p>	      	
 	      </div>
 	      <a class="icon">
 	      	<i class="ion-ios-telephone color-positive"></i>
@@ -57,22 +62,7 @@
 	      <ion-option-button class="button-positive">成功</ion-option-button>
 	     <ion-option-button class="button-assertive">战败</ion-option-button>
 	  </ion-item>
-	  <ion-item class="item item-avatar item-icon-right">
-	      <img src="./images/avatar.png">
-	      <span>C级(已回访)</span>
-	      <div>
-		      <h2>刘<span class="color-assertive">13708357405</span></h2>
-		      <p><span class="color-assertive"></span></p>
-		      <p>长安汽车长安CS752014款 1.8T 自动精英型 国IV</p>	      	
-	      </div>
-	      <a class="icon">
-	      	<i class="ion-ios-telephone color-positive"></i>
-	      	<span>0</span>
-	      </a>
-	      <ion-option-button class="button-positive">成功</ion-option-button>
-	     <ion-option-button class="button-assertive">战败</ion-option-button>
-	  </ion-item>
-	   <ion-item class="item item-avatar item-icon-right">
+	 <!--  <ion-item class="item item-avatar item-icon-right">
 	      <img src="./images/avatar.png">
 	      <span>C级(已回访)</span>
 	      <div>
@@ -102,7 +92,7 @@
 	      <ion-option-button class="button-positive">成功</ion-option-button>
 	     <ion-option-button class="button-assertive">战败</ion-option-button>
 	  </ion-item>
-	  <ion-item class="item item-avatar item-icon-right">
+	   <ion-item class="item item-avatar item-icon-right">
 	      <img src="./images/avatar.png">
 	      <span>C级(已回访)</span>
 	      <div>
@@ -147,6 +137,21 @@
 	      <ion-option-button class="button-positive">成功</ion-option-button>
 	     <ion-option-button class="button-assertive">战败</ion-option-button>
 	  </ion-item>
+	  <ion-item class="item item-avatar item-icon-right">
+	      <img src="./images/avatar.png">
+	      <span>C级(已回访)</span>
+	      <div>
+		      <h2>刘<span class="color-assertive">13708357405</span></h2>
+		      <p><span class="color-assertive"></span></p>
+		      <p>长安汽车长安CS752014款 1.8T 自动精英型 国IV</p>	      	
+	      </div>
+	      <a class="icon">
+	      	<i class="ion-ios-telephone color-positive"></i>
+	      	<span>0</span>
+	      </a>
+	      <ion-option-button class="button-positive">成功</ion-option-button>
+	     <ion-option-button class="button-assertive">战败</ion-option-button>
+	  </ion-item> -->
 
 <!-- 	   <ion-item class="item item-avatar item-icon-right">
 	      <img src="./images/avatar.png">
