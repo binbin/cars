@@ -13,9 +13,9 @@
         		<div class="col  col-center">保有客户</div>
         	</div> -->
         	<div class="button-bar">
-	  <a class="button button-positive">标准客户</a>
-	  <a class="button">战败客户</a>
-	  <a class="button">保有客户</a>
+	  <a class="button {{(type == '0') &&  'button-positive' || ''}}" ng-click="setType($event,0)">标准客户</a>
+	  <a class="button {{(type == '1') &&  'button-positive' || ''}}" ng-click="setType($event,1)">战败客户</a>
+	  <a class="button {{(type == '2') &&  'button-positive' || ''}}" ng-click="setType($event,2)">保有客户</a>
 	</div>
  </ion-header-bar>
 <ion-header-bar class="bar-subheader item-input-inset" style="margin-top:50px;">
