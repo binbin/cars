@@ -8,17 +8,28 @@
 </ion-nav-bar>
   <ion-content>
   <div class="list list-inset">
-    <!--   <label class="item">
+      <ng-form name="myForm" ng-submit="submitForm(myForm.$valid)">
+          <!--   <label class="item">
       	<span class="input-label">客户头像</span>
       	<img src="./images/avatar.png" alt="placeholder+image">
       </label> -->
       <label class="item item-input">
         <span class="input-label">客户姓名</span>
-        <input type="text">
+        <input type="text" required 
+          ng-minlength="2"
+          ng-maxlength="18"
+          name="name" 
+          ng-model="customer.name"
+          ng-model-options="{ updateOn: 'default blur' }"
+          style="{{myForm.name.$invalid && 'border:1px solid red;' || ''}}" 
+        >
       </label>
       <label class="item item-input">
         <span class="input-label">客户电话</span>
-        <input type="tel">
+        <input type="tel" name="tel" ng-model="customer.tel" required
+          ng-model-options="{ updateOn: 'default blur' }"
+          style="{{myForm.tel.$invalid && 'border:1px solid red;' || ''}}" 
+        >
       </label>
       <label class="item item-input">
         <span class="input-label">客户QQ</span>
@@ -112,6 +123,7 @@
         <input type="text" name="date">
     <!--     <textarea></textarea> -->
       </label>
+    </ng-form>
     </div>
 
   
