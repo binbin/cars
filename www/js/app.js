@@ -39,7 +39,8 @@ angular.module('cars', ['ionic','cars.controller','cars.services'])
     })
     .state('customer_add',{
         url:'/customer_add',
-        templateUrl:'templates/customer_add.html'
+        templateUrl:'templates/customer_add.html',
+        controller:'CustomerAddCtrl'
     })
     .state('employee',{
     	url:'/employee',

@@ -42,6 +42,13 @@ angular.module('cars.controller', [])
                               return item.customer_type === type
 		})
 	}
+	
+})
+.controller('CustomerAddCtrl',function($scope){
+	$scope.customer={
+		name:'howard',
+		tel:'13898989889'
+	}
 })
 .controller('EmployeeCtrl', function($scope) {})
 .controller('GradeCtrl', function($scope) {})
